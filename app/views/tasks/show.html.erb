@@ -1,0 +1,6 @@
+<h2><%= @task.name %></h2>
+<p><%= @task.description %></p>
+<h4><%= @task.state %></h4>
+<p>This task was created on <%= @task.created_at.strftime("%b %d, %Y") %> </p>
+
+<%= link_to "Back to Home", "/tasks"%>
